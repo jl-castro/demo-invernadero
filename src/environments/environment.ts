@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  nodeRed: 'http://127.0.0.1:1880',
+  nodeJs: 'http://127.0.0.1:3000'
 };
 
 /*
