@@ -7,8 +7,8 @@ import {HttpClientModule} from '@angular/common/http';
 import {SocketIoConfig, SocketIoModule} from 'ngx-socket-io';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
-// const config: SocketIoConfig = {url: 'http://localhost:3001', options: {}};
-const config: SocketIoConfig = {url: 'http://d64b-2800-cd0-2a13-ac00-35a1-942f-10a9-9095.ngrok.io', options: {}};
+const config: SocketIoConfig = {url: 'http://localhost:3001', options: {}};
+// const config: SocketIoConfig = {url: 'http://d64b-2800-cd0-2a13-ac00-35a1-942f-10a9-9095.ngrok.io', options: {}};
 
 @NgModule({
   declarations: [
