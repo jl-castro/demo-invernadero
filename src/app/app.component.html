@@ -1,5 +1,5 @@
 <main class="main-container">
-  <section class="card-content">
+  <!-- <section class="card-content">
     <div class="temperature-content">
       <label *ngIf="temperature">{{temperature}}°</label>
     </div>
@@ -17,5 +17,9 @@
         <label>{{sensor.temperatura}}°</label>
       </div>
     </div>
-  </section>
+  </section> -->
+
+  <div class="user" *ngFor="let user of data">
+    {{ user | json }}
+  </div>
 </main>
