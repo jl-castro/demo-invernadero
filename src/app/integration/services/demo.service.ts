@@ -11,7 +11,7 @@ export class DemoService {
 
   getData(): Observable<User[]> {
     return this.http.get<User[]>(
-      `http://apipacientes.patelecomsrl.com/api/pacientes`
+      `https://apipacientes.patelecomsrl.com/api/pacientes`
     );
   }
 }
