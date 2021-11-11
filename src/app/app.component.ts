@@ -14,11 +14,8 @@ export class AppComponent implements OnInit {
   public sensor = 'Temperatura';
   public sensorList: SensorInterface[] = [];
   public data: User[] = [];
-  constructor(
-    private socketService: SocketService,
-    private demoService: DemoService
-  ) {
-    // this.demoService.getData().subscribe((res) => (this.data = [...res]));
+  constructor(private demoService: DemoService) {
+    this.demoService.getData().subscribe((res) => (this.data = [...res]));
   }
 
   ngOnInit(): void {
