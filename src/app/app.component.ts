@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
     private socketService: SocketService,
     private demoService: DemoService
   ) {
-    this.demoService.getData().subscribe((res) => (this.data = [...res]));
+    // this.demoService.getData().subscribe((res) => (this.data = [...res]));
   }
 
   ngOnInit(): void {
